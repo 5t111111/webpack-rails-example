@@ -11,5 +11,9 @@ module Webpackrailstest
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
+
+    # webpack-rails path configuration
+    config.webpack.output_dir = 'public/dist'
+    config.webpack.public_path = 'dist'
   end
 end

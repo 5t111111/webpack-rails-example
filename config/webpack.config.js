@@ -16,12 +16,12 @@ var config = {
   },
 
   output: {
-    // Build assets directly in to public/webpack/, let webpack know
-    // that all webpacked assets start with webpack/
+    // Build assets directly in to public/dist/, let webpack know
+    // that all webpacked assets start with dist/
 
     // must match config.webpack.output_dir
-    path: path.join(__dirname, '..', 'public', 'webpack'),
-    publicPath: '/webpack/',
+    path: path.join(__dirname, '..', 'public', 'dist'),
+    publicPath: '/dist/',
 
     filename: production ? '[name]-[chunkhash].js' : '[name].js'
   },
@@ -89,7 +89,7 @@ if (production) {
     port: devServerPort,
     headers: { 'Access-Control-Allow-Origin': '*' }
   };
-  config.output.publicPath = '//localhost:' + devServerPort + '/webpack/';
+  config.output.publicPath = '//localhost:' + devServerPort + '/dist/';
   // Source maps
   config.devtool = 'cheap-module-eval-source-map';
 }

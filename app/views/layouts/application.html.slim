@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title Webpackrailstest
+    = csrf_meta_tags
+    = action_cable_meta_tag
+    = javascript_include_tag *webpack_asset_paths('application')
+    - if Rails.env == 'development'
+      script src="http://localhost:3808/webpack-dev-server.js"
+  body
+    = yield
