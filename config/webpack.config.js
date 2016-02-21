@@ -12,7 +12,8 @@ var production = process.env.TARGET === 'production';
 
 var config = {
   entry: {
-    'application': path.join(__dirname, '..', 'app/assets/javascripts/application.js')
+    'application': path.join(__dirname, '..', 'app/assets/javascripts/application.js'),
+    'second': path.join(__dirname, '..', 'app/assets/javascripts/second.js')
   },
 
   output: {
