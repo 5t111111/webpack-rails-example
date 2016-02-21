@@ -21,4 +21,6 @@
 .byebug_history
 # Added by webpack-rails
 /node_modules
+/public/dist
 /public/webpack
+/public/assets
