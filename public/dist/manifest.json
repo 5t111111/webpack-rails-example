@@ -1,1 +1,0 @@
-{"errors":[],"warnings":[],"version":"1.12.13","hash":"f4b9cfb1fb30c64b4f33","publicPath":"/dist/","assetsByChunkName":{"application":"application-90a5f5ac3ccd3607f284.js"},"assets":[{"name":"application-90a5f5ac3ccd3607f284.js","size":138426,"chunks":[0],"chunkNames":["application"],"emitted":true},{"name":"manifest.json","size":0,"chunks":[],"chunkNames":[]}],"children":[]}
